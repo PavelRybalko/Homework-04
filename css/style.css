@@ -1,0 +1,230 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  color: #555252;
+  letter-spacing: -0.02em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1110px;
+  margin: 0px auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+.header {
+  padding: 38px 0px 100px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #555252;
+}
+
+.header-logo {
+  text-transform: uppercase;
+  line-height: 32px;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.header-logo::first-letter {
+  font-family: "Roboto", sans-serif;
+  color: #1abc9c;
+  font-weight: 900;
+}
+
+.header-menu {
+  padding: 0;
+  margin: 0;
+  float: right;
+  list-style: none;
+  display: block;
+  padding-top: 10px;
+}
+
+.header-menu-item {
+  display: block;
+  font-weight: bold;
+  line-height: 11px;
+  text-transform: uppercase;
+  float: right;
+}
+
+.header-menu-item:not(:last-child) {
+  margin-left: 32px;
+}
+
+.header-menu-item a {
+  display: block;
+  text-decoration: none;
+  color: #0f0101;
+}
+
+.header-menu-item a:hover,
+.header-menu-item a:focus {
+  color: #1abc9c;
+}
+
+/*---------------- SECTION PRODUCTS ------------------- */
+
+.products {
+  padding-bottom: 100px;
+}
+
+.section-header {
+  margin: 0;
+  color: #515151;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section-header::after {
+  display: block;
+  height: 7px;
+  width: 164px;
+  background-color: #1abc9c;
+  content: "";
+  margin: 32px auto 92px;
+}
+
+.products-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+
+.products-list-item {
+  float: left;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  line-height: 32px;
+}
+
+.products-list-item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
+.products-list-item:nth-child(-n + 4) {
+  margin-bottom: 30px;
+}
+
+.products-list-image {
+  background-color: #e9f0fd;
+}
+
+.wrapper {
+  background-color: #323232;
+}
+
+.wrapper:hover {
+  background-color: #1abc9c;
+  cursor: pointer;
+}
+
+.products-list-name {
+  margin: 0;
+  color: #ffffff;
+  float: left;
+  padding: 4px 12px;
+  font-size: 18px;
+}
+
+.products-list-price {
+  margin: 0;
+  float: right;
+  color: #ffffff;
+  padding: 4px 12px;
+  background-color: rgba(255, 255, 255, 0.439);
+}
+
+.products-list-price::before {
+  content: "\0024";
+}
+
+/* -------------Section News------------------- */
+.news {
+  padding-bottom: 45px;
+}
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+
+.news-list-item {
+  float: left;
+  line-height: 26px;
+  width: 350px;
+}
+
+.news-image {
+  margin-bottom: 12px;
+}
+
+.news-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.news-header {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  width: 90%;
+}
+
+.news-header::after {
+  display: block;
+  height: 3px;
+  width: 136px;
+  background-color: #1abc9c;
+  content: "";
+  margin: 12px 0px 26px 0px;
+}
+
+.news-text {
+  margin: 0px 0px 16px 0px;
+  font-weight: 400;
+}
+
+.news-button {
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  background-color: #4ec6ab;
+  cursor: pointer;
+  margin: 0;
+  padding: 14px 40px;
+}
