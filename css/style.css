@@ -142,7 +142,8 @@ img {
   background-color: #323232;
 }
 
-.wrapper:hover {
+.wrapper:hover,
+.wrapper:focus {
   background-color: #1abc9c;
   cursor: pointer;
 }
