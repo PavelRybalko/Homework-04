@@ -87,8 +87,6 @@ img {
   color: #1abc9c;
 }
 
-/*---------------- SECTION PRODUCTS ------------------- */
-
 .products {
   padding-bottom: 100px;
 }
@@ -169,7 +167,6 @@ img {
   content: "\0024";
 }
 
-/* -------------Section News------------------- */
 .news {
   padding-bottom: 45px;
 }
