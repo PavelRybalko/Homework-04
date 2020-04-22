@@ -55,10 +55,13 @@ img {
   font-weight: 900;
 }
 
+nav {
+  float: right;
+}
+
 .header-menu {
   padding: 0;
   margin: 0;
-  float: right;
   list-style: none;
   display: block;
   padding-top: 10px;
@@ -69,11 +72,11 @@ img {
   font-weight: bold;
   line-height: 11px;
   text-transform: uppercase;
-  float: right;
+  float: left;
 }
 
 .header-menu-item:not(:last-child) {
-  margin-left: 32px;
+  margin-right: 32px;
 }
 
 .header-menu-item a {
@@ -123,7 +126,16 @@ img {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
+  font-size: 18px;
   line-height: 32px;
+  background-color: #323232;
+  width: 255px;
+}
+
+.products-list-item:hover,
+.products-list-item:focus {
+  background-color: #1abc9c;
+  cursor: pointer;
 }
 
 .products-list-item:not(:nth-child(4n)) {
@@ -138,22 +150,15 @@ img {
   background-color: #e9f0fd;
 }
 
-.wrapper {
-  background-color: #323232;
-}
-
-.wrapper:hover,
-.wrapper:focus {
-  background-color: #1abc9c;
-  cursor: pointer;
+.products-link {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .products-list-name {
   margin: 0;
-  color: #ffffff;
   float: left;
   padding: 4px 12px;
-  font-size: 18px;
 }
 
 .products-list-price {
@@ -214,15 +219,17 @@ img {
   font-weight: 400;
 }
 
-.news-button {
-  border: none;
+.news-link {
+  display: block;
+  text-decoration: none;
+  text-align: center;
   border-radius: 3px;
   color: #ffffff;
+  width: 160px;
   font-size: 16px;
   font-weight: 300;
   line-height: 26px;
   background-color: #4ec6ab;
-  cursor: pointer;
   margin: 0;
-  padding: 14px 40px;
+  padding: 14px 0pxgit;
 }
